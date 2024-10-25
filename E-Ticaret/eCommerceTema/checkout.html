@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anasayfa</title>
+
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <link rel="stylesheet" href="assets/swiper/swiper-bundle.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="top-bar bg-black">
+    <div class="container">
+        <div class="login float-end ">
+            <ul class="login-list">
+                <li><a href="" class="text-white">GİRİŞ</a></li>
+                <li><a href="" class="text-white">KAYIT</a></li>
+                <li><a href="" class="text-white">SİPARİŞLERİM</a></li>
+                <li><a href="" class="text-white">SEPETİM</a></li>
+
+                <li class="dropdown user-basket position-relative">
+                    <a href="javascript:void(0)" class="dropdown-toggle position-relative"
+                       role="button"
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        <i class="bi bi-cart zoom text-white fs-4"></i>
+                        <span class="item-count bg-orange text-black">13</span>
+                    </a>
+
+                    <div class="dropdown-menu">
+                        <div class="row overflow-custom">
+                            <div class="col-12">
+                                <div class="card-border-0">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10 TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <hr class="my-4">
+                            </div>
+
+                            <div class="col-12">
+                                <div class="card-border-0">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10 TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <hr class="my-4">
+                            </div>
+
+                            <div class="col-12">
+                                <div class="card-border-0">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10 TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <hr class="my-4">
+                            </div>
+                        </div>
+                        <div class="row total-price">
+                            <div class="col-12">
+                                <hr class="my-4">
+                            </div>
+                            <div class="col-12">
+                                <h5 class="text-center">
+                                    <span>Toplam: </span>
+                                    <span>250.00 TL </span>
+                                </h5>
+
+                            </div>
+                            <div class="col-12 basket-buttons">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a href="" class="btn btn-outline-warning w-100">Sepet</a>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <a href="" class="btn btn-outline-success w-100">Ödeme</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link active dropdown-toggle" aria-current="page" href="javascript:void(0)"
+                           data-bs-toggle="dropdown"
+                           role="button">
+                            MARKALAR
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="row">
+                                <div class="col-md-9 nav-brands">
+                                    <h4 class="mb-4">Tüm Markalar</h4>
+                                    <div class="row">
+                                        <div class="col navbar-column">
+                                            <a href="product-list.html" class="dropdown-link">Adidas</a>
+                                            <a href="#" class="dropdown-link">Nike</a>
+                                            <a href="#" class="dropdown-link">Puma</a>
+                                            <a href="#" class="dropdown-link">Sketchers</a>
+                                            <a href="#" class="dropdown-link">Lotto</a>
+                                            <a href="#" class="dropdown-link">Huf</a>
+                                            <a href="#" class="dropdown-link">Reebok</a>
+                                            <a href="#" class="dropdown-link">Parafina</a>
+                                            <a href="#" class="dropdown-link">Salomon</a>
+                                        </div>
+                                        <div class="col navbar-column">
+                                            <a href="product-list.html" class="dropdown-link">Adidas</a>
+                                            <a href="#" class="dropdown-link">Nike</a>
+                                            <a href="#" class="dropdown-link">Puma</a>
+                                            <a href="#" class="dropdown-link">Sketchers</a>
+                                            <a href="#" class="dropdown-link">Lotto</a>
+                                            <a href="#" class="dropdown-link">Huf</a>
+                                            <a href="#" class="dropdown-link">Reebok</a>
+                                            <a href="#" class="dropdown-link">Parafina</a>
+                                            <a href="#" class="dropdown-link">Salomon</a>
+                                        </div>
+                                        <div class="col navbar-column">
+                                            <a href="product-list.html" class="dropdown-link">Adidas</a>
+                                            <a href="#" class="dropdown-link">Nike</a>
+                                            <a href="#" class="dropdown-link">Puma</a>
+                                            <a href="#" class="dropdown-link">Sketchers</a>
+                                            <a href="#" class="dropdown-link">Lotto</a>
+                                            <a href="#" class="dropdown-link">Huf</a>
+                                            <a href="#" class="dropdown-link">Reebok</a>
+                                            <a href="#" class="dropdown-link">Parafina</a>
+                                            <a href="#" class="dropdown-link">Salomon</a>
+                                        </div>
+                                        <div class="col navbar-column">
+                                            <a href="product-list.html" class="dropdown-link">Adidas</a>
+                                            <a href="#" class="dropdown-link">Nike</a>
+                                            <a href="#" class="dropdown-link">Puma</a>
+                                            <a href="#" class="dropdown-link">Sketchers</a>
+                                            <a href="#" class="dropdown-link">Lotto</a>
+                                            <a href="#" class="dropdown-link">Huf</a>
+                                            <a href="#" class="dropdown-link">Reebok</a>
+                                            <a href="#" class="dropdown-link">Parafina</a>
+                                            <a href="#" class="dropdown-link">Salomon</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <h4 class="mb-4">Trendler</h4>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="nav-brand-swiper swiper-container">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                                        <a href="">
+                                                            <img src="assets/images/product2.webp" class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <a href="">
+                                                            <img src="assets/images/product3.jpeg" class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <a href="">
+                                                            <img src="assets/images/product4.jpeg" class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">KADIN</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">ERKEK</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">ÇOCUK</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">YENİ</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">İNDİRİMLER</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="nav-right">
+                <a href="javascript:void(0)" class="search-open">
+                    <i class="bi bi-search zoom"></i>
+                </a>
+                <div class="search-inside">
+                    <i class="bi bi-x search-close"></i>
+                    <div class="search-overlay"></div>
+                    <div class="position-center-center">
+                        <div class="search animate__animated animate__backInUp">
+                            <form action="">
+                                <input type="search" placeholder="Arama">
+                                <button type="submit"><i class="bi bi-check-circle"></i></button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<main>
+    <div class="container shadow p-5">
+        <div class="row">
+            <div class="col-md-9 order-detail-wrapper">
+                <h6>SİPARİŞ BİLGİLERİ</h6>
+                <form action="">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           data-bs-toggle="tab"
+                           href="#adresBilgileri">Adres Bilgileri
+                        </a>
+                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               aria-current="page"
+                               data-bs-toggle="tab"
+                               href="#odemeBilgileri">Ödeme Bilgileri
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="adresBilgileri">
+                            <div class="row pt-3">
+                                <div class="col-md-6">
+                                    <label for="name">*AD
+                                        <input type="text" id="name">
+                                    </label>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastname">*SOYAD
+                                        <input type="text" id="lastname">
+                                    </label>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label for="city">*İL
+                                        <select id="city">
+                                            <option value="">Ankara</option>
+                                            <option value="">İzmir</option>
+                                        </select>
+                                    </label>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label for="district">*İLÇE
+                                        <select id="district">
+                                            <option value="">Ankara</option>
+                                            <option value="">İzmir</option>
+                                        </select>
+                                    </label>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone">*TELEFON
+                                        <input type="text" id="phone">
+                                    </label>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label for="postCode">POSTA KODU
+                                        <input type="text" id="postCode">
+                                    </label>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="address">*ADRES
+                                        <textarea type="text" id="address" cols="30" rows="5"></textarea>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="odemeBilgileri">
+                            <div class="row pt-3">
+                                <div class="col-md-12 mb-3">
+                                    <label for="cardNumber">*KART NUMARASI
+                                        <input type="text" id="cardNumber">
+                                    </label>
+                                </div>
+
+                                <div class="col-md-8">
+                                    <label for="card-date">*SON KULLANMA TARİHİ</label>
+                                    <div class="row">
+                                            <div class="col-md-6">
+                                                <select type="text" id="card-date">
+                                                    <option value="" disabled>Ay</option>
+                                                    <option value="" >01</option>
+                                                    <option value="" >02</option>
+                                                    <option value="" >03</option>
+                                                    <option value="" >04</option>
+                                                    <option value="" >05</option>
+                                                    <option value="" >06</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <select name="" id="card-year">
+                                                    <option value="" disabled>Yıl</option>
+                                                    <option value="" >2024</option>
+                                                    <option value="" >2025</option>
+                                                    <option value="" >2026</option>
+                                                    <option value="" >2027</option>
+                                                </select>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="cvv">*CVV <i class="bi bi-info-circle"
+                                    data-bs-toggle="tooltip"
+                                    data-bs-placement="top"
+                                    data-bs-title="Kartınızın arka yüzündeki son üç rakam "></i>
+                                        <input type="text" id="cvv">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 basket-detail shadow py-3">
+                <a href="" class="btn bg-orange text-white w-100 btn-approve-basket">
+                    Ödeme Yap <i class="bi bi-chevron-right"></i>
+                </a>
+                <div class="grand-total mt-4">
+                    <p>Ürünün Toplamı: <span class="pull-right">599,70 TL</span></p>
+                    <p>Kargo Ücreti: <span class="pull-right">30,00 TL</span></p>
+                    <p>İndirim Kodu:
+                        <br>
+                        #Sepette30 <span class="pull-right">30,00 TL></span>
+                    </p>
+
+                    <p><strong>TOPLAM</strong><span class="pull-right">599,70 TL</span></p>
+                </div>
+
+                <div class="contract shadow p-4 mt-4">
+                    <label for="contract">
+                        <input type="checkbox" id="contract">
+                    </label>
+
+                    <div>
+                        <a href="javascript:void(0)"
+                        data-bs-toggle="modal"
+                        data-bs-target="#contractModal"
+                        >Ön Bilgilendirme Koşulları</a>nı ve
+                        <a href="javascript:void(0)"
+                           data-bs-toggle="modal"
+                           data-bs-target="#contractModal"
+                        >Satış Sözleşmesi</a>ni okudum, onaylıyorum.
+                    </div>
+                </div>
+
+                <a href="" class="btn bg-orange text-white w-100 btn-approve-basket mt-4">
+                    Ödeme Yap <i class="bi bi-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<div class="modal fade" id="contractModal" tabindex="-1" aria-labelledby="contractModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="contractModalLabel">Sözleşmeler ve Formlar</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-body">
+                    <div class="text-wrapper">
+                        <h5>Ön Bilgilendirme Formu</h5>
+                        <div class="contracts-text-wrapper">
+                        MADDE 1- TANIMLAR
+
+                        İNTERNET SİTESİ: SATICI’nın, Ürün ve Hizmetlerini internet üzerinden Tüketici’ye satışını gerçekleştirdiği mecra olup işbu sözleşmede Karaca olarak temsil edilmektedir.
+
+                        SATICI: İşbu Ön Bilgilendirme Formu’nun 6. maddesinde bilgileri yer alan tüzel kişidir.
+
+                        ÜRÜN/ÜRÜNLER: İNTERNET SİTESİ’nde TÜKETİCİ’lere satışı yapılan tüm mal ve hizmetleri kapsamaktadır.
+
+                        TÜKETİCİ: İNTERNET SİTESİ üzerinden ÜRÜN sipariş etmekte olan kişileri belirtmektedir.
+
+                        SÖZLEŞME: İNTERNET SİTESİ üzerinden SATICI’nın TÜKETİCİ’ye gerçekleştirmiş olduğu satış işleminin şart ve yükümlülüklerini içermektedir.
+
+                        ÖN SİPARİŞ: SATICI tarafından Ön Sipariş olarak satışa sunulan ürünlerin, ürün sayfasında belirtilen tahmini stoğa giriş tarihi itibariyle sevkiyat işlemlerinin başladığı ön siparişli satış işlemleridir.
+
+                        Satıcı İletişim Bilgileri:
+
+                        Adres:
+
+                        Şikayet Hattı:
+
+                        Şikayet E Posta Adresi:
+
+                        Fax:
+
+                        Mersis No:
+
+                        Ön Bilgilendirme Formu'nun konusu: Tüketici’nin https://www.aaaaaa.com alan adlı internet sitesi ("İnternet Sitesi") üzerinden satılan ve aşağıda nitelik ile satış fiyatı belirlenen mal ve hizmetlerin satışı ve teslimi ile ilgili olarak 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve 29188 sayılı Mesafeli Sözleşmeler Yönetmeliği hükümleri gereğince bilgilendirilmesidir.Ayrıca bu form, Tüketici’nin ön sipariş ile satın almak istediği ürünlerin, ürün sayfasında belirtilen tahmini stoğa giriş tarihi itibariyle sevkiyat işlemlerinin başlayacağına ilişkin bilgilendirilmesini de amaçlamaktadır.
+
+
+
+                        MADDE 2- GENEL HÜKÜMLER
+
+                        2.1. Tüketici, sözleşmeyi onayladığı takdirde, sipariş verdiği Ürün(ler)'in bu sayfada belirtilen bedeli ve masrafları, seçtiği ödeme yöntemi ile Tüketici’den tahsil olunur. Tüketici sipariş kapsamındaki ürün bedellerini aşağıdaki yöntemlerden birisini seçerek ödeyebilir:
+
+                        a) Kredi veya banka kartı ile ödeme,
+
+                        b) Dijital Cüzdan (Garanti Pay, iyzico ile Öde) ile ödeme,
+
+                        c) Hediye Kartı ile ödeme.
+
+                        2.2. Ürün/Ürünler’in temel özellikler SATICI’ya ait internet sitesinde, işbu Ön Bilgilendirme Formu’nda, Mesafeli Satış Sözleşmesi’nde ve ürün ön sipariş satışına konuysa Ön Sipariş Ürün Satış Sözleşmesi’nde yer almaktadır.
+
+                        2.3. Sipariş ve/veya ödeme işleminizi tamamladıktan sonra bilgilerinizde herhangi bir hata farkettiyseniz Müşteri Hizmetlerimiz ile 0850 2525 572 telefondan veya deneyimmerkezi@aaaaa.com e-posta adresinden irtibata geçebilirsiniz.
+
+                        2.4. Satıcı’nın https://www.aaaaa.com/ alan adlı internet sitesinde Türkiye dışına hizmeti bulunmamaktadır. Ayrıca, anlaşmalı kargo firmalarının teslimatın yapılması istenilen adrese yakın bir şubesi olmaması durumunda Ürün’ün, Satıcı tarafından bildirilecek yakın bir diğer şubeden Tüketici’nin teslim alması gerekmektedir.
+
+
+
+                        MADDE 3 -CAYMA HAKKI
+
+                        3.1. Tüketici, Ürün'ü teslim aldığı tarihten itibaren 14 (on dört) gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin Sözleşme'den cayma hakkına sahiptir. Tüketici, malın teslimine kadar olan süre içinde de cayma hakkını kullanabilir.
+
+                        3.2. Cayma hakkı süresi, hizmet ifasına ilişkin sözleşmelerde sözleşmenin kurulduğu gün; mal teslimine ilişkin sözleşmelerde ise tüketicinin veya tüketici tarafından belirlenen üçüncü kişinin malı teslim aldığı gün başlar. Ancak tüketici, sözleşmenin kurulmasından malın teslimine kadar olan süre içinde de cayma hakkını kullanabilir. Cayma hakkı süresinin belirlenmesinde;
+
+                        a)   Tek sipariş konusu olup ayrı ayrı teslim edilen mallarda, tüketicinin veya tüketici tarafındanbelirlenen üçüncü kişinin son malı teslim aldığı gün,
+
+                        b)   Birden fazla parçadan oluşan mallarda, tüketicinin veya tüketici tarafından belirlenen üçüncükişinin son parçayı teslim aldığı gün,
+
+                        c)   Belirli bir süre boyunca malın düzenli tesliminin yapıldığı sözleşmelerde, tüketicinin veya tüketicitarafından belirlenen üçüncü kişinin ilk malı teslim aldığı gün esas alınır.
+
+                        3.3.   Tüketici, cayma hakkını kullanmak için, (i) İnternet Sitesi'ne üye olması halinde, Siparişlerimsayfasına giderek ‘’Kolay İade’’ başlığı altında ilgili siparişindeki iade etmek istediği ürünü ve iade nedenini seçerek Satıcı tarafından sağlanan Ücretsiz İade kargo koduyla ürün/ürünlerin e-fatura çıktısını imzalayarak iade adresine gönderebilir, (ii) Tüketici, İnternet Sitesi’ne üye olmaması halinde İnternet Sitesi ana sayfasının sağ üst kısmında yer alan “Sipariş Takibi” butonuna tıkladıktan sonra açılan pencerede sipariş verirken kullandığı e-posta adresini ve iptal etmek istediği sipariş numarasını ilgili kutucuklara yazıp “Sorgula” tuşuna tıkladıktan sonra iade sayfasına giderek ‘’Kolay İade’’ başlığı altında ilgili siparişindeki iade etmek istediği ürünü ve iade nedenini seçerek Satıcı tarafından sağlanan Ücretsiz İade kargo koduyla ürün/ürünlerin e-fatura çıktısını imzalayarak iade adresine gönderebilir. (iii) İşbu bilgilendirme formunun Satıcı İletişim Bilgileri kısmında yer alan telefon numarası üzerinden müşteri hizmetlerine ulaşarak kendisine sağlanan yönlendirmeleri takip edebilir veya (vi) Cayma hususundaki açık bildirimi, Ek-1’de yer alan örnek cayma formu doldurularak elektronik posta adresimiz, iletişim adresimiz, telefon veya fax numaramız üzerinden yapılabilir.
+
+                        3.4.   Tüketici’nin, tercih ettiği yönteme bağlı olarak cayma hakkını kullandığı tarihten itibaren 10 (on) gün içinde ürünü geri göndermesi gerekmektedir. Ürün ile beraber faturasının, malın kutusunun, ambalajının, varsa standart aksesuarları, Ürün ile birlikte hediye edilen diğer ürünlerin de eksiksiz ve hasarsız olarak tek bir pakete konularak iade edilmesi gerekmektedir. Tüketici, cayma süresi içinde ürünü, işleyişine, teknik özelliklerine ve kullanım talimatlarına uygun bir şekilde mutad kullandığı takdirde meydana gelen değişiklik ve bozulmalardan sorumlu değildir. Buna göre, cayma tarihine kadar ki süreçte Ürün'ün kullanım talimatlarına, teknik özelliklerine ve işleyişine uygun bir şekilde kullanılmamasından ötürü değişiklik veya bozulma olursa Tüketici cayma hakkını kaybedebilir.
+
+                        3.5.   Tüketici, iade edeceği Ürün'ü SATICI'nın anlaşmalı olduğu kargo şirketleri (Yurtiçi Kargo, MNGKargo, UPS Kargo, Packupp, Kargoist, Bovo Kargo) ile göndermesi halinde iade masraf tutarı olarak ürünün tüketiciye telimi için taşıma firmasına ödenen ücret Tüketici’ye yansıtılacaktır.
+
+                        3.6.   Tüketicinin cayma hakkını kullanmasından itibaren 14 (on dört) gün içerisinde, varsa Ürün'ünteslim masrafları da dahil olmak üzere (malın SATICI'nın iade için belirttiği taşıyıcı aracılığıyla geri gönderilmesi kaydıyla), Tüketici’nin ilgili Ürün'e ilişkin yaptığı tüm ödemeler Tüketici’ye satın alırken kullandığı ödeme aracına uygun bir şekilde ve tüketiciye herhangi bir masraf veya yükümlülük getirmeden iade edilecektir. Kredi kartı ile yapılan işlemlerde, Ürün bedelinin bankaya iadesi işleminin SATICI tarafından yapılmasında sonra Tüketici hesaplarına yansıması ilgili bankanın iade işlem süreçleri tamamlandıktan sonra gerçekleşir.
+
+                        3.7.   Cayma hakkının kullanılması nedeniyle SATICI tarafından düzenlenen kampanya limit tutarınınaltına düşülmesi halinde kampanya kapsamında faydalanılan indirim miktarı iptal edilir.
+
+
+
+                        MADDE 4 –CAYMA BİLDİRİMİ
+
+                        Cayma bildirimleri aşağıdaki seçeneklerden birisi ile Satıcı’ya iletilebilir;
+
+                        •   Tüketici, İnternet Sitesi'ne üye olması halinde, Siparişlerim sayfasına giderek ‘’Kolay İade’’ başlığıaltında ilgili siparişindeki iade etmek istediği ürünü ve iade nedenini seçerek Satıcı’ya cayma bildirimini iletmiş olacaktır.
+
+                        •   Tüketici, İnternet Sitesi’ne üye olmaması halinde İnternet Sitesi ana sayfasının sağ üst kısmındayer alan “Sipariş Takibi” butonuna tıkladıktan sonra açılan pencerede sipariş verirken kullandığı eposta adresini ve iptal etmek istediği sipariş numarasını ilgili kutucuklara yazıp “Sorgula” tuşuna tıkladıktan sonra iade sayfasına giderek ‘’Kolay İade’’ başlığı altında ilgili siparişindeki iade etmek istediği ürünü ve iade nedenini seçerek Satıcı’ya cayma bildirimini iletmiş olacaktır.
+
+                        •   Tüketici, Ek-1’de yer alan örnek cayma formu doldurularak elektronik posta adresimiz olan deneyimmerkezi@aaaaa.com üzerinden mail yoluyla, Cumhuriyet Mahallesi Yeni Yol 1 Sk. Now Bomontı Apt. No: 2/12 Şişli/İstanbul adresimize posta yoluyla veya 0850 2525 572 numarasına fax çekerek cayma bildirimini Satıcı’ya iletebilir.
+
+
+
+                        MADDE 5 -CAYMA HAKKININ KULLANILAMAYACAĞI HALLER
+
+                        5.1. Mevzuat uyarınca Tüketici aşağıdaki hallerde cayma hakkına sahip değildir:
+
+                        •   Fiyatı finansal piyasalardaki dalgalanmalara bağlı olarak değişen ve Satıcı’nın kontrolündeolmayan mal veya hizmetlere ilişkin sözleşmelerde (örn. ziynet, altın ve gümüş kategorisindeki ürünler);
+
+                        •   Alıcı'nın istekleri veya açıkça onun kişisel ihtiyaçları doğrultusunda hazırlanan, niteliği itibariylegeri gönderilmeye elverişli olmayan ve çabuk bozulma tehlikesi olan veya son kullanma tarihi geçme ihtimali olan malların teslimine ilişkin sözleşmelerde;
+
+                        •   Tesliminden sonra ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olan mallardan;iadesi sağlık ve hijyen açısından uygun olmayanların teslimine ilişkin sözleşmelerde;
+
+                        •   Tesliminden sonra başka ürünlerle karışan ve doğası gereği ayrıştırılması mümkün olmayanmallara ilişkin sözleşmelerde;
+
+                        •   Alıcı tarafından ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olması şartıyla maddiortamda sunulan kitap, ses veya görüntü kayıtlarına, yazılım programlarına ve bilgisayar sarf malzemelerine ilişkin sözleşmelerde;
+
+                        •   Abonelik sözleşmesi kapsamında sağlananlar dışında gazete, dergi gibi süreli yayınların teslimine ilişkin sözleşmelerde;
+
+                        •   Belirli bir tarihte veya dönemde yapılması gereken, konaklama, eşya taşıma, araba kiralama,yiyecek-içecek tedariki ve eğlence veya dinlenme amacıyla yapılan boş zamanın değerlendirilmesine ilişkin sözleşmelerde;
+
+                        •   Bahis ve piyangoya ilişkin hizmetlerin ifasına ilişkin sözleşmelerde;
+
+                        •   Cayma hakkı süresi sona ermeden önce, tüketicinin onayı ile ifasına başlanan hizmetlere ilişkinsözleşmelerde; ve
+
+                        •   Elektronik ortamda anında ifa edilen hizmetler ile tüketiciye anında teslim edilen gayri maddimallara ilişkin sözleşmelerde (kupon gibi).
+
+                        •   Mesafeli Sözleşmeler Yönetmeliği’nin kapsamı dışında bırakılmış olan mal veya hizmetler
+
+                        (Satıcı’nın düzenli teslimatları ile Alıcı'nın meskenine teslim edilen gıda maddelerinin, içeceklerin ya da diğer günlük tüketim maddeleri ile seyahat, konaklama, lokantacılık, eğlence sektörü gibi alanlarda hizmetler) bakımından cayma hakkı kullanılamayacaktır.
+
+                        •   Cayma hakkının sipariş konusu ürünlerin tamamı veya bir kısmı için kullanıldığı durumlarda (varsaTüketici’nin istifade ettiği) cayma hakkının sonucu olarak SATICI'nın ücretsiz kargo (teslim) kampanyasındaki asgari alışveriş tutarının altına düşülmesi halinde, kampanya kapsamında tahsil edilmemiş teslim-kargo bedelinin tamamı Tüketici’ye iade edilecek tutardan düşülür. Tüketici’ye teslim-kargo ücreti ödediği hallerde ise bu ücretin tamamı Tüketici’ye iade olunur.
+
+                        •   Ürün ile birlikte hediye edilen diğer ürünlerin de eksiksiz ve hasarsız olarak tek bir paketekonularak iade edilmesi gerekmektedir. Tüketici, cayma süresi içinde ürünü, işleyişine, teknik özelliklerine ve kullanım talimatlarına uygun bir şekilde kullandığı takdirde meydana gelen değişiklik ve bozulmalardan sorumlu değildir. Buna göre, cayma tarihine kadar ki süreçte Ürün'ün kullanım talimatlarına, teknik özelliklerine ve işleyişine uygun bir şekilde kullanılmamasından ötürü değişiklik veya bozulma olursa Tüketici cayma hakkını kaybedebilir.
+
+                        5.2.   İNTERNET SİTESİ’nde işlem güvenliği, bilgilerin korunması, gizliliği, işlenmesi-kullanımı veticari elektronik iletişimler ile ilgili hususlarda SATICI ve Tüketici için geçerli cari kurallar-şartlar aşağıdaki gibi Tüketiciye sunulmuştur. Tüketici dilediği her zaman bu konularda belirtilen iletişim araçları ile SATICI’ya ulaşarak danışabilir.
+
+                        5.3.   SATICI İstanbul Ticaret Odası (İTO) üyesidir, ITO'nun meslek ile ilgili davranış kurallarınıedinebileceğiniz elektronik iletişim bilgileri de şöyledir: (www.ito.org.tr, Telefon: 444 0 486).
+
+                        5.4.   Yukarıda/aşağıda yer alan bilgilendirmeler ile Sözleşme'yi Tüketicinin İNTERNET SİTESİ’ndeonaylayarak kabulünden sonra tüm sözleşmeler Tüketici’nin sipariş teyidi ile birlikte belirttiği eposta (mail) adresine gönderilecektir; Tüketici cihazına kaydedip saklayarak her zaman erişebileceği gibi, ilgili yasalar çerçevesinde ve azami üç yıl süre ile SATICI nezdindeki sistemlerde muhafaza edileceklerdir.
+
+
+
+                        MADDE 6 – SATICI VE TÜKETİCİYE AİT BİLGİLER
+
+                        SATICI:
+
+                        Unvanı:
+
+                        Adres:
+
+                        Telefon:
+
+                        Banka Hesabı:
+
+
+
+                        TÜKETİCİ:
+
+                        Adı,Soyadı/Ünvanı:
+
+                        Adres:
+
+                        Telefon:
+
+                        E-Posta:
+
+
+
+                        MADDE 7 - SİPARİŞ/SÖZLEŞME KONUSU ÜRÜN, FİYATI, ÖDEME VE TESLİMAT KOŞULLARI
+
+                        7.1. Ürünlerin Cinsi ve Türü, Miktarı, Marka/Modeli, Birim Fiyat(lar)ı, Satış Bedeli ile Ödeme (tahsilat) Bilgileri ve Tüketici’nin bildirdiği teslim yeri dahil Teslimat Bilgileri aşağıda belirtildiği gibidir. Anlaşmalı kargo firmalarının (Yurtiçi Kargo, MNG Kargo, UPS Kargo, Packupp, Kargoist, Bovo Kargo) teslimatın yapılması istenen adrese yakın bir şubesi olmaması durumunda Ürün’ün bildirilen yakın bir diğer şubeden teslim alınması gerekmektedir. (Bu hususta Tüketici'ye gerekli bilgilendirme, eposta/mail, SMS veya telefonla yapılacaktır). Teslimat ile ilgili diğer kurallar aşağıda belirtilmiştir.
+
+
+
+                        ÜRÜN:
+
+                        BİRİM FİYAT:
+
+                        ADET:
+
+                        TOPLAM:
+
+
+
+                        Sipariş işlem ve gönderim ücretleri
+
+
+
+                        ÖDEME TOPLAMI
+
+
+
+                        TESLİMAT BİLGİLERİ:
+
+                        Adı,Soyadı/Ünvanı:
+
+                        Adres:
+
+                        Telefon:
+
+                        E-Posta:
+
+
+
+                        FATURA BİLGİLERİ:
+
+                        Adı,Soyadı/Ünvanı:
+
+                        Adres:
+
+                        Telefon:
+
+                        E-Posta:
+
+
+
+                        7.2. Sipariş konusu Ürün, yasal 30 günlük süre aşılmamak şartı ile Tüketici'ye/bildirdiği yukarıdaki adresteki üçüncü kişi/kuruluşa aşağıda belirtilen esaslarda teslim edilir. Ön sipariş ile satışı yapılan ürünler için bu sürenin ürün sayfasında belirtilen tahmini stoğa giriş tarihi itibariyle başlayacağı hususunda Tüketici işbu form ile bilgilendirildiğini kabul etmektedir.
+
+                        7.3. SATICI, Ürünler'i, gönderileri için anlaşmalı kargo firması aracılığı ile göndermekte ve teslim ettirmektedir. Bu kargo firmasının Tüketici'nın bulunduğu yerde şubesi olmaması halinde, Tüketici'nın Ürünü, kargo firmasının, SATICI tarafından bildirilen yakın bir diğer şubesinden teslim alması gerekmektedir.
+
+                        7.4. Ön sipariş satışına konu olan ürünler hariç olamak üzere; stoklarda olan Ürünler, sipariş tarihinden itibaren, ortalama beş (5) iş günü içerisinde kargoya teslim edilecek şekilde planlanır. Belirtilen süreler alışveriş sepeti aşamasında Tüketici’ye bildirilmekte olduğu gibi siparişin tamamlanmasının ardından gönderilen bilgilendirici mail içerisinde de belirtilmektedir. Tahmini belirtilen işbu sürelerin uzaması halinde Tüketici SATICI tarafından ayrıca bilgilendirilecektir.
+
+                        7.5. Genel olarak ve aksi açıkça belirtilmediği sürece teslimat masrafları (kargo ücreti vb.) Tüketici'ye aittir. Tüm anlaşmalı kargo firmalarımızın sipariş teslimat ücreti minimum 19,90-TL olup SATICI, satış anında yürüttüğü ve İNTERNET SİTESİ’nde şartlarını ilan ettiği kampanyalara bağlı olarak söz konusu teslimat masraflarının tamamını ya da bir kısmını Tüketici'ye yansıtmayabilir.
+
+                        7.6. Ürünlerin teslimatı sırasında Tüketici'nin adresinde bulunmaması ve adresteki kişilerin teslimatı kabul etmemesi durumunda SATICI, bu husustaki edimini yerine getirmiş kabul edilecektir. Adreste teslim alacak bir kimsenin olmaması durumunda kargo firması ile temas kurarak ürünlerin sevkiyatını takip ve temin etmek Tüketici'nin sorumluluğundadır. Ürün, Tüketici'den başka bir kişi/kuruluşa teslim edilecek ise, bu kişi/kuruluşun adresinde bulunmaması veya teslimatı kabul etmemesinden SATICI sorumlu tutulamaz. Bu hallerde Tüketici'nın Ürün'ü geç teslim almasından kaynaklanan her türlü zarar ile Ürün'ün kargo şirketinde beklemiş olması ve/veya kargonun SATICI’ya iade edilmesinden dolayı oluşan giderler de Tüketici'ye aittir.
+
+                        7.7. Tüketici'nın Ürün'ü teslim almadan önce masraflar dahil satış bedelini tamamen ödemiş olması gerekir. Peşin satışlarda teslimattan önce Ürün bedeli SATICI’ya tamamen ödenmediği, taksitli satışlarda vadesi gelen taksit tutarı tediye edilmediği takdirde SATICI, tek taraflı olarak sözleşmeyi iptal edebilir ve Ürün'ü teslim etmeyebilir. Herhangi bir nedenle Tüketici tarafından mal veya hizmetin bedeli ödenmez veya yapılan ödeme banka kayıtlarında iptal edilir ise, SATICI mal veya hizmetin teslimi yükümlülüğünden kurtulmuş kabul edilir.
+
+                        7.8. Ürün teslimatı sonrasında herhangi bir sebepten dolayı, işlem yapılan kredi kartının ait olduğu Banka/finansman kurumunun Ürün bedelini SATICI’ya ödememesi ya da ödediği bedeli geri talep etmesi halinde, Ürün en geç 7 iş günü içinde Tüketici tarafından SATICI’ya iade edilir. Ürün bedelinin ödenmemesi Tüketici’nin Banka'ya haksız bir talimatından veya itirazından yahut bir kusurundan veya ihmalinden kaynaklanıyor ise kargo masrafları Tüketici tarafından karşılanacaktır. SATICI’nın iadeyi kabul etmeksizin Ürün bedeli alacağını takip dahil tüm akdi-kanuni hakları saklıdır.
+
+                        7.9. Tüketici'nın satış bedelini, bankalardan (finansman kuruluşları dahil) sahip olduğu kredi kartı, taksit kart v.b. ile ödediği hallerde, bu kartların tanıdığı tüm imkanlar doğrudan kartı veren kuruluşça sağlanmış kredi ve/veya taksitli ödeme imkanlarıdır; bu çerçevede gerçekleşen ve SATICI’nın bedelini defaten veya peyder pey tahsil ettiği Ürün satışları işbu Sözleşme’nin tarafları yönünden kredili veya taksitli satış değildir, peşin satıştır. SATICI’nın kanunen taksitle satış sayılan hallerdeki yasal hakları (taksitlerin ödenmemesi halinde sözleşmeyi fesih ve/veya kalan borcun tümünün temerrüt faizi ile birlikte ödenmesini talep hakları dahil) ilgili mevuzat çerçevesinde mevcut ve saklıdır. Tüketici'nin temerrüdü durumunda yürürlükteki kanunların öngördüğü şekilde aylık oranda temerrüt faizi tatbik edilir.
+
+                        7.10. Ön sipariş satışına konu ürünler için ürün sayfasında beliritlen tahmini stoğa giriş tarihi itibariyle, standart mesafeli satışlarda siparişin onay anından itibaren 30 gün içinde Tüketici'ye teslimi zamanında teslimdir. Normal satış/teslimat koşulları dışındaki olağanüstü durumlar (hava muhalefeti, yoğun trafik, deprem, sel, yangın gibi) nedeni ile yasal azami 30 günlük süre zarfında teslim edilememesi söz konusu ise, SATICI teslimat ile ilgili olarak Tüketici'yi mevcut iletişim bilgilerinden ulaşarak haberdar eder. Bu durumda Tüketici siparişi iptal edebilir, benzer bir ürün sipariş edebilir veya olağanüstü durum sona erene kadar bekleyebilir.
+
+                        7.11. SATICI Sözleşme konusu Ürün'ü tedarik edemeyeceğinin anlaşılması halinde, bu durumu öğrendiği tarihten itibaren üç (3) gün içinde Tüketici'yi açık biçimde ve aynı araçlardan biri ile bilgilendirerek sözlü/yazılı onayını almak kaydıyla, eşit kalite-fiyatta başka bir mal/hizmeti tedarik edebilir ve Sözleşme konusu taahhüdünü bu suretle yerine getirmiş sayılır. Tüketici söz konusu onayı verip vermemekte her bakımdan serbesttir ve onay vermediği hallerde sipariş iptaline (Sözleşme feshine) ilişkin akdi-kanuni hükümler uygulanır.
+
+
+
+                        MADDE 8 - GÜVENLİK-GİZLİLİK, KİŞİSEL BİLGİLER, ELEKTRONİK İLETİŞİMLER VE FİKRİ-SINAİ HAKLAR İLE İLGİLİ KURALLAR
+
+                        8.1. İNTERNET SİTESİ'nde bilgilerin korunması, gizliliği, işlenmesi-kullanımı ve iletişimler ile diğer hususlarda aşağıda cari esasları belirtilen gizlilik kuralları-politikası ve şartlar geçerlidir.
+
+                        8.2. Tüketici tarafından İNTERNET SİTESİ’nde girilen bilgilerin ve işlemlerin güvenliği için gerekli önlemler, SATICI tarafındaki kendi sistem altyapısında, bilgi ve işlemin mahiyetine göre günümüz teknik imkanları ölçüsünde alınmıştır. Bununla beraber, söz konusu bilgiler Tüketici cihazından girildiğinden Tüketici tarafında korunmaları ve ilgisiz kişilerce erişilememesi için, virüs ve benzeri zararlı uygulamalara ilişkin olanlar dahil, gerekli tedbirlerin alınması sorumluluğu Tüketici'ye aittir.
+
+                        8.3. Tüketicinin sair suretle verdiği kişisel veri ve ticari elektronik iletişimlerine dair izin-onaylarının yanısıra ve teyiden; Tüketici'nin İNTERNET SİTESİ'ne üyeliği ve alışverişleri sırasında edinilen bilgileri SATICI, dahil olduğu firma ve ilerideki iştirakleri, bağlı şirketleri, ortakları, halefleri ve/veya bunların belirleyecekleri üçüncü kişiler/kuruluşlar tarafından muhtelif ürün/hizmetlerin sağlanması ve her türlü bilgilendirme, iletişim, reklam-tanıtım, promosyon, satış, pazarlama, mağaza kartı, kredi kartı ve üyelik uygulamaları amaçlı yapılacak elektronik ve diğer ticari-sosyal iletişimler için, belirtilenler ve halefleri nezdinde süresiz olarak veya öngörecekleri süre ile kayda alınabilir, basılı/manyetik arşivlerde saklanabilir, gerekli görülen hallerde güncellenebilir, paylaşılabilir, aktarılabilir, transfer edilebilir, kullanılabilir ve sair suretlerle işlenebilir. Bu veriler ayrıca kanunen gereken durumlarda ilgili Merci ve Mahkemelere iletilebilir. Tüketici kişisel olan-olmayan mevcut ve yeni bilgilerinin, kişisel verilerin korunması hakkında mevzuat ile elektronik ticaret mevzuatına uygun biçimde yukarıdaki kapsamda kullanımına, paylaşımına, işlenmesine ve kendisine ticari olanolmayan elektronik iletişimler ve diğer iletişimler yapılmasına muvafakat ve izin vermiştir.
+
+                        8.4. Tüketici SATICI’ya belirtilen iletişim kanallarından ulaşarak veri kullanımı-işlenmelerini ve/veya gerek yine belirtilen şekilde ulaşarak ya da kendisine gönderilen elektronik iletişimlerdeki red hakkını kullanarak iletişimleri her zaman için durdurabilir. Tüketici'nın bu husustaki açık bildirimine göre, kişisel veri işlemleri ve/veya tarafına iletişimler yasal azami süre içinde durdurulur; ayrıca dilerse, hukuken muhafazası gerekenler ve/veya mümkün olanlar haricindeki bilgileri, veri kayıt sisteminden silinir ya da kimliği belli olmayacak biçimde anonim hale getirilir. Tüketici isterse kişisel verilerinin işlenmesi ile ilgili işlemler, aktarıldığı kişiler, eksik veya yanlış olması halinde düzeltilmesi, düzeltilen bilgilerin ilgili üçüncü kişilere bildirilmesi, verilerin silinmesi veya yok edilmesi, otomatik sistemler ile analiz edilmesi sureti ile kendisi aleyhine bir sonucun ortaya çıkmasına itiraz, verilerin kanuna aykırı olarak işlenmesi sebebi ile zarara uğrama halinde giderilmesi gibi konularda SATICI’ya her zaman başvurabilir ve bilgi alabilir. Bu hususlardaki başvuru ve talepleri yasal azami süreler içinde yerine getirilecek yahut hukuki gerekçesi tarafına açıklanarak kabul edilmeyebilecektir.
+
+                        8.5. İNTERNET SİTESİ'ne ait her türlü bilgi ve içerik ile bunların düzenlenmesi, revizyonu ve kısmen/tamamen kullanımı konusunda; SATICI’nın anlaşmasına göre diğer üçüncü sahıslara ait olanlar hariç; tüm fikri-sınai haklar ve mülkiyet hakları SATICI'ya aittir.
+
+                        8.6. SATICI yukarıdaki konularda Tüketici’nin ilgili mevzuat hükümleri kapsamındaki haklarına halel getirmeksizin gerekli görebileceği her türlü değişikliği yapma hakkını saklı tutar; bu değişiklikler SATICI tarafından INTERNET SİTESİ'nden veya diğer uygun yöntemler ile duyurulduğu andan itibaren geçerli olur.
+
+                        8.7. İNTERNET SİTESİ'nden ulaşılan diğer sitelerde kendilerine ait gizlilik-güvenlik politikaları ve kullanım şartları geçerlidir.
+
+
+
+                        MADDE 9 - DİĞER HÜKÜMLER
+
+                        9.1. Sözleşme ve kanuna uygun caymalar dahil sipariş iptallerinde ve Sözleşme fesihlerinde, Ürün bedeli tahsil edilmiş ise, azami 14 gün içinde, Ürün bedelini ödediği araca uygun bir şekilde Tüketici'ye iade edilir. Örneğin kredi kartlı ödemelerde iade işlemi de Tüketici kredi kartına iade sureti ile yapılır ve Ürün tutarı, siparişin Tüketici tarafından iptal edilmesinden sonra aynı sürede ilgili bankaya iade edilir; bu tutarın bankaya iadesi işleminin SATICI tarafından yapılmasında sonra Tüketici hesaplarına yansıması tamamen banka işlem süreci ile ilgili olduğundan, bu tür insiyatifi dışındaki nedenlerden kaynaklı olası gecikmeler söz konusu olabilecektir. (bankaların iadeyi Tüketici hesabına yansıtma işlemleri genellikle üç haftayı bulabilmektedir).
+
+                        9.2. Tüketici Ürün ve satışla ilgili talep ve şikayetlerini, yukarıda belirtilmiş iletişim kanallarından ulaşarak, sözlü veya yazılı şekilde SATICI'ya bildirebilir. SATICI, Tüketici’nin haklı talep-şikayetleri ile her türlü başvurularını karşılamakla yükümlüdür. Bu şekilde bir çözüme bağlanması mümkün olmadığı takdirde Tüketici dilerse Ticaret Bakanlığı'nca her yıl belirlenen ve ilan edilen parasal sınırlar dahilinde kendisinin veya SATICI'nın yerleşim yerindeki (ikametgâhının bulunduğu yerdeki) İl ve İlçe Tüketici Hakem Heyetleri'ne ve sınırları aşan durumlarda Tüketici Mahkemeleri'ne başvurabilir.
+
+                        9.3. Tüketici, onayı halinde Mesafeli Satış Sözleşmesi'nin ayrılmaz bir parçasını oluşturacak işbu Ön Bilgilendirmeler ile, satışa konu Ürün/Ürün'lerin temel özellik-nitelikleri, satış fiyatı, ödeme şekli, teslimat işlemleri ve cayma hakkı ile kişisel bilgiler-elektronik iletişim ve ödül puanları koşulları dahil tüm hususlarda bilgilendirilmiş bulunmaktadır.
+
+                        9.4. İş bu Sipariş-Sözleşme Ön Bilgilendirmelerindeki tüm açıklamalar ve bilgiler Tüketici'nin SATICI’nde onayladığı an itibariyle geçerli olup kabulü halinde SATICI ve Tüketici arasında Mesafeli Satış Sözleşmesi ile birlikte bağlayıcı olarak uygulanır.
+
+
+
+                        MADDE 10 – ÖDEME YÜKÜMLÜLÜĞÜ VE CAYMA HAKKI UYARISI
+
+                        10.1. Tüketici, işbu ön Bilgilendirme Formu ve Mesafeli Satış Sözleşmesini onayladığı takdirde, sipariş verdiği Ürün(ler)'in bedeli ve masrafları, seçtiği ödeme yöntemi ile Tüketici’den tahsil olunur. Ürünün temel nitelikleri ve toplam fiyatı:
+
+                        ÜRÜN:   BİRİM FİYAT: ADET: TOPLAM:
+
+
+
+                        Sipariş işlem ve gönderim ücretleri
+
+                        ÖDEME TOPLAMI
+
+
+
+                        10.2. Tüketici sipariş kapsamındaki ürün bedellerini aşağıdaki yöntemlerden birisini seçerek ödeyebilir:
+
+                        a)   Kredi kartı veya banka kartı ile ödeme veya
+
+                        b)   Dijital Cüzdan (Garanti Pay, iyzico ile Öde) ile ödeme
+
+                        10.3.   Tüketici, Ürün'ü teslim aldığı tarihten itibaren 14 (on dört) gün içinde herhangi bir gerekçegöstermeksizin ve cezai şart ödemeksizin Sözleşme'den cayma hakkına sahiptir. Tüketici, malın teslimine kadar olan süre içinde de cayma hakkını kullanabilir.
+
+                        10.4.   Cayma hakkı süresi, hizmet ifasına ilişkin sözleşmelerde sözleşmenin kurulduğu gün; malteslimine ilişkin sözleşmelerde ise tüketicinin veya tüketici tarafından belirlenen üçüncü kişinin malı teslim aldığı gün başlar. Ancak tüketici, sözleşmenin kurulmasından malın teslimine kadar olan süre içinde de cayma hakkını kullanabilir. Cayma hakkı süresinin belirlenmesinde;
+
+                        d)   Tek sipariş konusu olup ayrı ayrı teslim edilen mallarda, tüketicinin veya tüketici tarafındanbelirlenen üçüncü kişinin son malı teslim aldığı gün,
+
+                        e)   Birden fazla parçadan oluşan mallarda, tüketicinin veya tüketici tarafından belirlenen üçüncükişinin son parçayı teslim aldığı gün,
+
+                        f)   Belirli bir süre boyunca malın düzenli tesliminin yapıldığı sözleşmelerde, tüketicinin veya tüketicitarafından belirlenen üçüncü kişinin ilk malı teslim aldığı gün esas alınır.
+
+                        10.5.   Tüketici, cayma hakkını kullanmak için, (i) İnternet Sitesi'ne üye olması halinde, Siparişlerimsayfasına giderek ‘’Kolay İade’’ başlığı altında ilgili siparişindeki iade etmek istediği ürünü ve iade nedenini seçerek Satıcı tarafından sağlanan Ücretsiz İade kargo koduyla ürün/ürünlerin e-fatura çıktısını imzalayarak iade adresine gönderebilir, (ii) Tüketici, İnternet Sitesi’ne üye olmaması halinde İnternet Sitesi ana sayfasının sağ üst kısmında yer alan “Sipariş Takibi” butonuna tıkladıktan sonra açılan pencerede sipariş verirken kullandığı e-posta adresini ve iptal etmek istediği sipariş numarasını ilgili kutucuklara yazıp “Sorgula” tuşuna tıkladıktan sonra iade sayfasına giderek ‘’Kolay İade’’ başlığı altında ilgili siparişindeki iade etmek istediği ürünü ve iade nedenini seçerek Satıcı tarafından sağlanan Ücretsiz İade kargo koduyla ürün/ürünlerin e-fatura çıktısını imzalayarak iade adresine gönderebilir. (iii) İşbu bilgilendirme formunun Satıcı İletişim Bilgileri kısmında yer alan telefon numarası üzerinden müşteri hizmetlerine ulaşarak kendisine sağlanan yönlendirmeleri takip edebilir veya (vi) Cayma hususundaki açık bildirimi, Ek-1’de yer alan örnek cayma formu doldurularak elektronik posta adresimiz, iletişim adresimiz, telefon veya fax numaramız üzerinden yapılabilir.
+
+                        10.6.   Tüketici’nin, tercih ettiği yönteme bağlı olarak cayma hakkını kullandığı tarihten itibaren 10 (on) gün içinde ürünü geri göndermesi gerekmektedir. Ürün ile beraber faturasının, malın kutusunun, ambalajının, varsa standart aksesuarları, Ürün ile birlikte hediye edilen diğer ürünlerin de eksiksiz ve hasarsız olarak tek bir pakete konularak iade edilmesi gerekmektedir. Tüketici, cayma süresi içinde ürünü, işleyişine, teknik özelliklerine ve kullanım talimatlarına uygun bir şekilde mutad kullandığı takdirde meydana gelen değişiklik ve bozulmalardan sorumlu değildir. Buna göre, cayma tarihine kadar ki süreçte Ürün'ün kullanım talimatlarına, teknik özelliklerine ve işleyişine uygun bir şekilde kullanılmamasından ötürü değişiklik veya bozulma olursa Tüketici cayma hakkını kaybedebilir.
+
+                        10.7.   Tüketici, iade edeceği Ürün'ü SATICI'nın anlaşmalı olduğu kargo şirketleri ile göndermesi halinde iade masraf tutarı olarak ürünün tüketiciye telimi için taşıma firmasına ödenen ücret Tüketici’ye yansıtılacaktır.
+
+                        10.8.   Tüketicinin cayma hakkını kullanmasından itibaren 14 (on dört) gün içerisinde, varsa Ürün'ünteslim masrafları da dahil olmak üzere (malın SATICI'nın iade için belirttiği taşıyıcı aracılığıyla geri gönderilmesi kaydıyla), Tüketici’nin ilgili Ürün'e ilişkin yaptığı tüm ödemeler Tüketici’ye satın alırken kullandığı ödeme aracına uygun bir şekilde ve tüketiciye herhangi bir masraf veya yükümlülük getirmeden iade edilecektir. Kredi kartı ile yapılan işlemlerde, Ürün bedelinin bankaya iadesi işleminin SATICI tarafından yapılmasında sonra Tüketici hesaplarına yansıması ilgili bankanın iade işlem süreçleri tamamlandıktan sonra gerçekleşir.
+
+                        10.9.   Cayma hakkının kullanılması nedeniyle SATICI tarafından düzenlenen kampanya limit tutarınınaltına düşülmesi halinde kampanya kapsamında faydalanılan indirim miktarı iptal edilir.
+
+                        10.10. Cayma bildirimleri aşağıdaki seçeneklerden birisi ile Satıcı’ya iletilebilir;
+
+                        •   Tüketici, İnternet Sitesi'ne üye olması halinde, Siparişlerim sayfasına giderek ‘’Kolay İade’’butonuna tıkladıktan sonra ilgili siparişindeki iade etmek istediği ürünü ve iade nedenini seçerek Satıcı’ya cayma bildirimini iletebilir.
+
+                        •   Tüketici, İnternet Sitesi’ne üye olmaması halinde İnternet Sitesi ana sayfasının sağ üst kısmındayer alan “Sipariş Takibi” butonuna tıkladıktan sonra açılan pencerede sipariş verirken kullandığı eposta adresini ve iptal etmek istediği sipariş numarasını ilgili kutucuklara yazıp “Sorgula” tuşuna tıkladıktan sonra iade sayfasına giderek ‘’Kolay İade’’ başlığı altında ilgili siparişindeki iade etmek istediği ürünü ve iade nedenini seçerek Satıcı’ya cayma bildirimini iletebilir.
+
+                        •   Tüketici, Ek-1’de yer alan örnek cayma formu doldurularak elektronik posta adresimiz olan deneyimmerkezi@aaaaaa.com üzerinden mail yoluyla, Cumhuriyet Mahallesi Yeni Yol 1 Sk. Now Bomontı Apt. No: 2/12 Şişli/İstanbul adresimize posta yoluyla veya +90 212 412 4400 numarasına fax çekerek cayma bildirimini Satıcı’ya iletebilir.
+
+                        10.11. Cayma Hakkının Kullanılamayacağı Haller
+
+                        Mevzuat uyarınca Tüketici aşağıdaki hallerde cayma hakkına sahip değildir:
+
+                        •   Fiyatı finansal piyasalardaki dalgalanmalara bağlı olarak değişen ve Satıcı’nın kontrolündeolmayan mal veya hizmetlere ilişkin sözleşmelerde (örn. ziynet, altın ve gümüş kategorisindeki ürünler);
+
+                        •   Alıcı'nın istekleri veya açıkça onun kişisel ihtiyaçları doğrultusunda hazırlanan, niteliği itibariylegeri gönderilmeye elverişli olmayan ve çabuk bozulma tehlikesi olan veya son kullanma tarihi geçme ihtimali olan malların teslimine ilişkin sözleşmelerde;
+
+                        •   Tesliminden sonra ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olan mallardan;iadesi sağlık ve hijyen açısından uygun olmayanların teslimine ilişkin sözleşmelerde;
+
+                        •   Tesliminden sonra başka ürünlerle karışan ve doğası gereği ayrıştırılması mümkün olmayanmallara ilişkin sözleşmelerde;
+
+                        •   Alıcı tarafından ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olması şartıyla maddiortamda sunulan kitap, ses veya görüntü kayıtlarına, yazılım programlarına ve bilgisayar sarf malzemelerine ilişkin sözleşmelerde;
+
+                        •   Abonelik sözleşmesi kapsamında sağlananlar dışında gazete, dergi gibi süreli yayınların teslimineilişkin sözleşmelerde;
+
+                        •   Belirli bir tarihte veya dönemde yapılması gereken, konaklama, eşya taşıma, araba kiralama,yiyecek-içecek tedariki ve eğlence veya dinlenme amacıyla yapılan boş zamanın değerlendirilmesine ilişkin sözleşmelerde;
+
+                        •   Bahis ve piyangoya ilişkin hizmetlerin ifasına ilişkin sözleşmelerde;
+
+                        •   Cayma hakkı süresi sona ermeden önce, tüketicinin onayı ile ifasına başlanan hizmetlere ilişkinsözleşmelerde; ve
+
+                        •   Elektronik ortamda anında ifa edilen hizmetler ile tüketiciye anında teslim edilen gayri maddimallara ilişkin sözleşmelerde (kupon gibi).
+
+                        •   Mesafeli Sözleşmeler Yönetmeliği’nin kapsamı dışında bırakılmış olan mal veya hizmetler
+
+                        (Satıcı’nın düzenli teslimatları ile Alıcı'nın meskenine teslim edilen gıda maddelerinin, içeceklerin ya da diğer günlük tüketim maddeleri ile seyahat, konaklama, lokantacılık, eğlence sektörü gibi alanlarda hizmetler) bakımından cayma hakkı kullanılamayacaktır.
+
+                        •   Cayma hakkının sipariş konusu ürünlerin tamamı veya bir kısmı için kullanıldığı durumlarda (varsaTüketici’nin istifade ettiği) cayma hakkının sonucu olarak SATICI'nın ücretsiz kargo (teslim) kampanyasındaki asgari alışveriş tutarının altına düşülmesi halinde, kampanya kapsamında tahsil edilmemiş teslim-kargo bedelinin tamamı Tüketici’ye iade edilecek tutardan düşülür. Tüketici’ye teslim-kargo ücreti ödediği hallerde ise bu ücretin tamamı Tüketici’ye iade olunur.
+
+                        •   Ürün ile birlikte hediye edilen diğer ürünlerin de eksiksiz ve hasarsız olarak tek bir paketekonularak iade edilmesi gerekmektedir. Tüketici, cayma süresi içinde ürünü, işleyişine, teknik özelliklerine ve kullanım talimatlarına uygun bir şekilde kullandığı takdirde meydana gelen değişiklik ve bozulmalardan sorumlu değildir. Buna göre, cayma tarihine kadar ki süreçte Ürün'ün kullanım talimatlarına, teknik özelliklerine ve işleyişine uygun bir şekilde kullanılmamasından ötürü değişiklik veya bozulma olursa Tüketici cayma hakkını kaybedebilir.
+                            EK-1: CAYMA FORMU (Bu form, sadece sözleşmeden cayma hakkı kullanılmak istenildiğinde doldurup gönderilecektir.) Kime:
+
+                            Unvanı:
+
+                            Adres:
+
+                            Şikayet E-Posta Adresi:
+
+                            Şikayet Hattı:
+
+                            Bu formla aşağıdaki malların satışına veya hizmetlerin sunulmasına ilişkin sözleşmeden cayma hakkımı kullandığımı beyan ederim.
+
+                            -   Sipariş tarihi veya teslim tarihi:
+
+                            -   Cayma hakkına konu mal veya hizmet:
+
+                            -   Cayma hakkına konu mal veya hizmetin bedeli:
+
+                            -   Tüketicinin adı ve soyadı:
+
+                            -   Tüketicinin adresi:
+
+                            -   Tüketicinin imzası:
+
+                            -   Tarih:
+                        </div> /*h1,h2,h3 vs kullanılarak düzenlenebilir ancak düzenlenmedi. style.css koduna düzenlenmiş gibi gerekli kodlar eklendi.*/
+                        <div class="text-wrapper mt-5">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn bg-orange text-white w-100 btn-contracts-approve">Onaylıyorum</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="position-relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h6 class="text-white">MARKALAR</h6>
+                <ul class="link">
+                    <li><a href="#.">Adidas</a></li>
+                    <li><a href="#">Nike</a></li>
+                    <li><a href="#.">Puma</a></li>
+                    <li><a href="#.">Lumberjack</a></li>
+                    <li><a href="#.">Sketchers</a></li>
+                    <li><a href="#.">NewBalanca</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-white">KATEGORİLER</h6>
+                <ul class="link">
+                    <li><a href="#.">Sneaker</a></li>
+                    <li><a href="#.">Basketbol Ayakkabısı</a></li>
+                    <li><a href="#.">Futbol Ayakkabısı</a></li>
+                    <li><a href="#.">Fitness Ayakkabısı</a></li>
+                    <li><a href="#.">Bot</a></li>
+                    <li><a href="#.">Terlik</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-white">KURUMSAL</h6>
+                <ul class="link">
+                    <li><a href="#.">Hakkımızda</a></li>
+                    <li><a href="#.">Kullanıcı Sözleşmesi</a></li>
+                    <li><a href="#.">Gizlilik ve Çerez Politikası</a></li>
+                    <li><a href="#.">Bilgi Toplumu Hizmetleri</a></li>
+                    <li><a href="#.">Kişisel Verilerin Korunması</a></li>
+                    <li><a href="#.">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-white">ÖNEMLİ BİLGİLER</h6>
+                <ul class="link">
+                    <li><a href="#.">Sıkça Sorulan Sorular</a></li>
+                    <li><a href="#.">Garanti & İade Sorgulama</a></li>
+                    <li><a href="#.">Sigorta İşlemleri</a></li>
+                    <li><a href="#.">Kargo & Teslimat</a></li>
+                    <li><a href="#.">İade & Değişim</a></li>
+                    <li><a href="#.">Mağazalar</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="assets/js/jquery/dist/jquery.min.js"></script>
+<script src="assets/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+</body>
+</html>
